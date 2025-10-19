@@ -74,7 +74,7 @@
     "secondaryLinks": [
         {
             "label": "Download CV",
-            "altText": "Sign up",
+            "altText": "",
             "url": "https://noshinn.netlify.app/Noshin%20Nuhash%20CV.pdf",
             "icon": "arrowRight",
             "iconPosition": "right",
