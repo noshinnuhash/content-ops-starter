@@ -25,7 +25,7 @@ sections:
     media:
       url: /images/lets see.jpg
       altText: Unblock your team boost your time to production preview
-      elementId: ''
+      elementId: w-1/3
       type: ImageBlock
     badge:
       label: 'Hello, I''m'
