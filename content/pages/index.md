@@ -161,10 +161,21 @@ sections:
         type: FeaturedItem
       - title: Life After Uni
         subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          I always thought of myself working in corporate and becoming a CEO and
+          being a teacher just didn't do it for me. In summer Teach First offers
+          interships for the summer with one of the big 4 Deloitte. I had always
+          wanted to work in Deloitte. I applied for recruitment to get my foot
+          in the door, then I was later advised I shouldnt go down that route. I
+          was final stage for an interview with Your Overseas at Home and I
+          didn't get it. It was a warm sales role but I didn't actually know
+          about tech sales. After that, I took a break and learnt about the
+          different industries I could get into. I was considering market
+          research since I did market research as a freelancer. I had a call
+          with someone in the indstry and he told me to look into tech sales. I
+          had never heard of it before. Then I did a course on udemy called 'How
+          to break into tech sales' and it was the perfect role for me. It
+          finally was the puzzle to a jigsaw I couldnt see before.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
