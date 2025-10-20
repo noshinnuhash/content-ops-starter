@@ -699,8 +699,9 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: ''
-    text: |+
-      # If you have a role that fits my background, I’d love to hear from you.
+    text: >+
+      ##### If you have a role that fits my background, I’d love to hear from
+      you.
 
     media:
       fields:
