@@ -108,10 +108,11 @@ sections:
       - type: FeaturedItem
         title: Education
         subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Start from A-Levels talk about how I always had a love from
+          literature. I used to annotate books. I wanted to study sociology at
+          A-levels. Did psychology. I excelled in statistics. I wasn't sure what
+          to do with my psychology degree. 
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
