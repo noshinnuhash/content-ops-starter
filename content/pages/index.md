@@ -103,7 +103,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Behind the Résumé — The Story That Doesn’t Fit on LinkedIn
+    subtitle: "Behind the Resume\_— The Story That Doesn’t Fit on LinkedIn"
     items:
       - type: FeaturedItem
         title: Education
