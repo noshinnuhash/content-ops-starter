@@ -8,10 +8,60 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
-    text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    text: >+
+      <div style="text-align: left">I’m transitioning from a background in
+      psychology to a career in tech,
+
+      combining my love for understanding people with a passion for data and
+
+      technology. My first encounter with tech came during GCSEs when I built a
+
+      website for an animal shelter. I didn’t realise it then, but it planted a
+      seed.
+
+      After university, where I achieved a First in all my statistics modules, I
+
+      rediscovered that interest through Code First Girls’ Introduction to
+      Python
+
+      course.I’ve always enjoyed connecting with people and solving problems.
+      From
+
+      running my own stand selling pre-loved items to sharing ideas that inspire
+
+      others, I’ve realised I have a natural drive for communication, growth,
+      and
+
+      curiosity. I’m drawn to both tech sales and data analysis because in
+      sales, I
+
+      love communicating the value of technology and helping others see its
+
+      potential, while data analysis challenges me to think critically and
+      explore
+
+      the “why” behind things.I’m currently expanding my skills through a data
+      analytics bootcamp and
+
+      Kickstarter courses. Along the way, I’ve created projects in Python, SQL,
+      and
+
+      Tableau that explore data, uncover insights, and shape data-driven
+
+      recommendations. What excites me most about technology is how
+      it                                                                                                                           
+      stimulates me to keep learning and to bridge the gap between people and
+      data.</div>
+
+
+
+
+
+
+
+
+
+
     actions:
       - label: See Tutorials
         altText: ''
