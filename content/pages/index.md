@@ -103,7 +103,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: How did I get here?
     items:
       - type: FeaturedItem
         title: 500k
