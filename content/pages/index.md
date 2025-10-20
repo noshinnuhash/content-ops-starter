@@ -699,9 +699,10 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: ''
-    text: >
-      If you think I could be a great fit for your team or project, I’d love to
-      connect.
+    text: >+
+      ## If you think I could be a great fit for your team or project, I’d love
+      to connect.
+
     media:
       fields:
         - name: name
