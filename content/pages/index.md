@@ -603,7 +603,7 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: Games
       color: text-primary
       styles:
         self:
