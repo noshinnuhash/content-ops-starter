@@ -103,7 +103,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: How did I get here?
+    subtitle: Behind the Résumé — The Story That Doesn’t Fit on LinkedIn
     items:
       - type: FeaturedItem
         title: Education
