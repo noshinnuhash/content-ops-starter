@@ -77,6 +77,9 @@ sections:
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
+      styles:
+        self:
+          borderWidth: 2
     badge:
       label: 'Hello, I''m'
       color: text-primary
