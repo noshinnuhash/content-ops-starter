@@ -100,10 +100,23 @@ sections:
         title: Education
         subtitle: Numbers Done
         text: >
-          Start from A-Levels talk about how I always had a love from
-          literature. I used to annotate books. I wanted to study sociology at
-          A-levels. Did psychology. I excelled in statistics. I wasn't sure what
-          to do with my psychology degree. 
+          I've always had a love for literature, from annotating to analysing
+          novels. I was torn between studying English Literature or Psychology
+          at university. In the end, I chose Psychology because I have always
+          been intrinsically fascinated by human behaviour.
+
+
+          While I enjoyed the subject, I was uncertain about where it would take
+          me. I didn’t have a predefined career path, but one thing stood out: I
+          consistently excelled in statistics. It made me wonder if I’d chosen
+          the right field and whether my problem-solving and analytical skills
+          would have thrived more in computer science.
+
+
+          After graduating, I decided to explore that curiosity further and
+          completed a Python course with Code First Girls. I loved every moment
+          of it, from the thinking to the reasoning, and adding my own twist of
+          creativity to turn ideas into something tangible and meaningful.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
