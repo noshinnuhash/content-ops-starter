@@ -698,9 +698,7 @@ sections:
       text: Get in Touch
       color: text-dark
       type: TitleBlock
-    subtitle: >-
-      If you think I could be a great fit for your team or project, I’d love to
-      connect.
+    subtitle: ''
     text: >
       If you think I could be a great fit for your team or project, I’d love to
       connect.
