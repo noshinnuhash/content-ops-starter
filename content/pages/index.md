@@ -98,7 +98,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Education
-        subtitle: Numbers Done
+        subtitle: Where
         text: >
           I've always had a love for literature, from annotating to analysing
           novels. I was torn between studying English Literature or Psychology
