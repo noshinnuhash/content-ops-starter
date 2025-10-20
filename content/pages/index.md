@@ -7,7 +7,7 @@ sections:
       text: Noshin Nuhash
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: About me
     text: >+
       <div style="text-align: left">I’m transitioning from a background in
       psychology to a career in tech,
