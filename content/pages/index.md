@@ -698,7 +698,9 @@ sections:
       text: Get in Touch
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: >-
+      If you think I could be a great fit for your team or project, I’d love to
+      connect.
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
