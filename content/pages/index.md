@@ -97,7 +97,7 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: My Journey
       color: text-dark
       styles:
         self:
