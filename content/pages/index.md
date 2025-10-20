@@ -63,7 +63,7 @@ sections:
 
 
     actions:
-      - label: See Tutorials
+      - label: My Journey
         altText: ''
         url: /
         showIcon: true
