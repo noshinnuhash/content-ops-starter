@@ -726,7 +726,7 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Get in touch
+      text: Get in Touch
       color: text-dark
       type: TitleBlock
     subtitle: Section with a form subtitle
