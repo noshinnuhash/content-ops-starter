@@ -84,16 +84,7 @@
             "type": "Social"
         }
     ],
-    "legalLinks": [
-        {
-            "label": "Privacy",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        }
-    ],
+    "legalLinks": [],
     "copyrightText": "Copyright © 2025 Noshin Nuhash. All Rights Reserved.\n\n\n\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
