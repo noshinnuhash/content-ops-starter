@@ -701,11 +701,9 @@ sections:
     subtitle: >-
       If you think I could be a great fit for your team or project, I’d love to
       connect.
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      If you think I could be a great fit for your team or project, I’d love to
+      connect.
     media:
       fields:
         - name: name
