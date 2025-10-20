@@ -700,7 +700,7 @@ sections:
       type: TitleBlock
     subtitle: ''
     text: |+
-      ## If you have a role that fits my background, I’d love to hear from you.
+      # If you have a role that fits my background, I’d love to hear from you.
 
     media:
       fields:
