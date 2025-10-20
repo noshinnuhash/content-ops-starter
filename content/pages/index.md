@@ -136,10 +136,9 @@ sections:
               borderRadius: x-large
       - title: Teaching
         subtitle: The Job Stuff
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Talk about after graduating I got into Teach First and I got into the
+          assessment centre for Think Ahead but it wasn't my calling.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
