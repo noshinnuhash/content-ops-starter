@@ -380,9 +380,7 @@ sections:
     title: null
     subtitle: 'A quote I live by:'
     items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+      - title: “Knowledge is power.”
         tagline: Testimonial 1
         subtitle: Quote by
         text: |
