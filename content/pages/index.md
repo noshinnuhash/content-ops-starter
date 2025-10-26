@@ -484,8 +484,7 @@ sections:
       - title: White to move - checkmate in 1
         tagline: ''
         subtitle: Find the single move that wins the game.
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: ''
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
