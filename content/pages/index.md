@@ -482,7 +482,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: White to move - checkmate in 1
-        tagline: This is the tagline
+        tagline: ''
         subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
