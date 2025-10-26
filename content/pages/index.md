@@ -459,7 +459,7 @@ sections:
     subtitle: Mini Games That Reflect Me
     items:
       - title: Spanish Mini Quiz
-        tagline: This is the tagline
+        tagline: ''
         subtitle: Match the question to the correct word.
         text: |
           Match the question to the correct word.
