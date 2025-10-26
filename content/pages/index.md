@@ -278,7 +278,7 @@ sections:
     items:
       - title: “Knowledge is power.”
         tagline: ''
-        subtitle: Quote by
+        subtitle: Quote by Francis Bacon.
         text: |
           What the quote means to me?
         image:
