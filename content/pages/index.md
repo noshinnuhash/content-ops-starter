@@ -2,91 +2,6 @@
 title: Home
 slug: /
 sections:
-  - type: GenericSection
-    title:
-      text: Noshin Nuhash
-      color: text-dark
-      type: TitleBlock
-    subtitle: About me
-    text: >+
-      <div style="text-align: left">I’m transitioning from a background in
-      psychology to a career in tech,
-
-      combining my love for understanding people with a passion for data and
-
-      technology. My first encounter with tech came during GCSEs when I built a
-
-      website for an animal shelter. I didn’t realise it then, but it planted a
-      seed.
-
-      After university, where I achieved a First in all my statistics modules, I
-
-      rediscovered that interest through Code First Girls’ Introduction to
-      Python
-
-      course.I’ve always enjoyed connecting with people and solving problems.
-      From
-
-      running my own stand selling pre-loved items to sharing ideas that inspire
-
-      others, I’ve realised I have a natural drive for communication, growth,
-      and
-
-      curiosity. I’m drawn to both tech sales and data analysis because in
-      sales, I
-
-      love communicating the value of technology and helping others see its
-
-      potential, while data analysis challenges me to think critically and
-      explore
-
-      the “why” behind things.I’m currently expanding my skills through a data
-      analytics bootcamp and
-
-      Kickstarter courses. Along the way, I’ve created projects in Python, SQL,
-      and
-
-      Tableau that explore data, uncover insights, and shape data-driven
-
-      recommendations. What excites me most about technology is how
-      it                                                                                                                           
-      stimulates me to keep learning and to bridge the gap between people and
-      data.</div>
-
-
-
-
-
-
-
-
-
-
-    actions: []
-    media:
-      url: /images/lets see.jpg
-      altText: Unblock your team boost your time to production preview
-      elementId: ''
-      type: ImageBlock
-      styles:
-        self:
-          borderWidth: 2
-    badge:
-      label: 'Hello, I''m'
-      color: text-primary
-      type: Badge
-    elementId: ''
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: flex-start
   - type: FeaturedItemsSection
     title:
       text: My Journey
@@ -244,6 +159,91 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+  - type: GenericSection
+    title:
+      text: Noshin Nuhash
+      color: text-dark
+      type: TitleBlock
+    subtitle: About me
+    text: >+
+      <div style="text-align: left">I’m transitioning from a background in
+      psychology to a career in tech,
+
+      combining my love for understanding people with a passion for data and
+
+      technology. My first encounter with tech came during GCSEs when I built a
+
+      website for an animal shelter. I didn’t realise it then, but it planted a
+      seed.
+
+      After university, where I achieved a First in all my statistics modules, I
+
+      rediscovered that interest through Code First Girls’ Introduction to
+      Python
+
+      course.I’ve always enjoyed connecting with people and solving problems.
+      From
+
+      running my own stand selling pre-loved items to sharing ideas that inspire
+
+      others, I’ve realised I have a natural drive for communication, growth,
+      and
+
+      curiosity. I’m drawn to both tech sales and data analysis because in
+      sales, I
+
+      love communicating the value of technology and helping others see its
+
+      potential, while data analysis challenges me to think critically and
+      explore
+
+      the “why” behind things.I’m currently expanding my skills through a data
+      analytics bootcamp and
+
+      Kickstarter courses. Along the way, I’ve created projects in Python, SQL,
+      and
+
+      Tableau that explore data, uncover insights, and shape data-driven
+
+      recommendations. What excites me most about technology is how
+      it                                                                                                                           
+      stimulates me to keep learning and to bridge the gap between people and
+      data.</div>
+
+
+
+
+
+
+
+
+
+
+    actions: []
+    media:
+      url: /images/lets see.jpg
+      altText: Unblock your team boost your time to production preview
+      elementId: ''
+      type: ImageBlock
+      styles:
+        self:
+          borderWidth: 2
+    badge:
+      label: 'Hello, I''m'
+      color: text-primary
+      type: Badge
+    elementId: ''
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        flexDirection: row
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: flex-start
   - title: Divider
     colors: bg-light-fg-dark
     styles:
