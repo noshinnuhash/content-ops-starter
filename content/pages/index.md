@@ -504,7 +504,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
+      - title: Are you faster than me?
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: >
