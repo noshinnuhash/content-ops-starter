@@ -122,9 +122,9 @@ sections:
           traditional classroom wasn’t where I was meant to stay. I wanted to
           keep learning, growing, and finding new ways to create impact beyond
           the school walls. Around the same time, I reached the final stage of a
-          social work graduate scheme for social work. In the end, I chose to
-          withdraw from both schemes, knowing how mentally and emotionally
-          demanding those roles could be.
+          social work graduate scheme. In the end, I chose to withdraw from both
+          schemes, knowing how mentally and emotionally demanding those roles
+          could be.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
