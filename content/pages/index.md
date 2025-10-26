@@ -188,21 +188,30 @@ sections:
         type: FeaturedItem
       - title: Life After Uni
         subtitle: Faster
-        text: >
-          I always thought of myself working in corporate and becoming a CEO and
-          being a teacher just didn't do it for me. In summer Teach First offers
-          interships for the summer with one of the big 4 Deloitte. I had always
-          wanted to work in Deloitte. I applied for recruitment to get my foot
-          in the door, then I was later advised I shouldnt go down that route. I
-          was final stage for an interview with Your Overseas at Home and I
-          didn't get it. It was a warm sales role but I didn't actually know
-          about tech sales. After that, I took a break and learnt about the
-          different industries I could get into. I was considering market
-          research since I did market research as a freelancer. I had a call
-          with someone in the indstry and he told me to look into tech sales. I
-          had never heard of it before. Then I did a course on udemy called 'How
-          to break into tech sales' and it was the perfect role for me. It
-          finally was the puzzle to a jigsaw I couldnt see before.
+        text: >+
+          Initially, what drew me to Teach First was the opportunity to take
+          part in summer internships at Deloitte. I had always heard of the
+          prestige surrounding the Big Four, and from a young age, I envisioned
+          myself as a CEO. It reaffirmed my interest in the corporate world and
+          made me realise I wanted a career that would challenge me
+          intellectually and allow me to grow. To take my first step, I applied
+          for recruitment roles to
+
+          get my foot in the door, but I later realised it wasn’t the right fit.
+          I reached the final stage of a graduate interview process and wasn’t
+          selected, which gave me the space to pause and reflect. During that
+          time, I explored different industries and networked with professionals
+          who introduced me to the world of tech sales — something I had never
+          heard of before. After completing a course called “How to Break into
+          Tech Sales”, everything clicked. It felt like finding the missing
+          piece of a puzzle I hadn’t seen before.
+
+
+
+
+
+
+
         image:
           url: /images/icon3.svg
           altText: Featured icon three
