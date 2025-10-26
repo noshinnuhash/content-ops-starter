@@ -462,7 +462,7 @@ sections:
         tagline: This is the tagline
         subtitle: Match the question to the correct word.
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Match the question to the correct word.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
