@@ -157,7 +157,7 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: Life After Uni
-        subtitle: Faster
+        subtitle: From Purpose to Ambition
         text: >+
           Initially, what drew me to Teach First was the opportunity to take
           part in summer internships at Deloitte. I had always heard of the
