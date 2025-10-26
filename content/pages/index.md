@@ -111,32 +111,20 @@ sections:
               borderRadius: x-large
       - title: Teaching
         subtitle: Lessons beyond the classroom
-        text: >+
+        text: >
           In my final year of university, I worked as a teaching assistant. It
           was a refreshing and rewarding experience, and in many ways, my desire
           to teach manifested itself through every “aha” moment I witnessed. I
           loved seeing students’ confidence grow and discovering creative ways
-          to make learning engaging. After graduating, I secured a place on the
-          Teach First
-
-          graduate scheme, but shortly after being accepted, I realised I needed
-          more. While I enjoyed teaching, I also realised that the traditional
-          classroom wasn’t where I was meant to stay. I wanted to keep learning,
-          growing, and finding new
-
-          ways to create impact beyond the school walls. Around the same time, I
-          reached the final stage of the Think Ahead graduate scheme for social
-          work. In the end, I chose to withdraw from both schemes, knowing how
-          mentally and emotionally
-
+          to make learning engaging. After graduating, I secured a place on a
+          teaching graduate scheme, but shortly after being accepted, I realised
+          I needed more. While I enjoyed teaching, I also realised that the
+          traditional classroom wasn’t where I was meant to stay. I wanted to
+          keep learning, growing, and finding new ways to create impact beyond
+          the school walls. Around the same time, I reached the final stage of a
+          social work graduate scheme for social work. In the end, I chose to
+          withdraw from both schemes, knowing how mentally and emotionally
           demanding those roles could be.
-
-
-
-
-
-
-
         image:
           url: /images/icon2.svg
           altText: Featured icon two
