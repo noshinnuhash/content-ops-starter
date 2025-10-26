@@ -458,7 +458,7 @@ sections:
       type: TitleBlock
     subtitle: Mini Games That Reflect Me
     items:
-      - title: Feature Item One
+      - title: Spanish Mini Quiz
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
