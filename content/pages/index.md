@@ -460,7 +460,7 @@ sections:
     items:
       - title: Spanish Mini Quiz
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: Match the question to the correct word.
         text: |
           Follow the tutorial to build your first Netlify Create site.
         image:
