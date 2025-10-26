@@ -481,7 +481,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: White to move
+      - title: White to move - checkmate in 1
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
