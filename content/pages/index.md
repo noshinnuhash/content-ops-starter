@@ -64,7 +64,7 @@ sections:
 
     actions: []
     media:
-      url: /images/lets see.jpg
+      url: /images/IMG_9242 2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
