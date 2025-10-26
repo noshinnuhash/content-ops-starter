@@ -462,8 +462,7 @@ sections:
       - title: Spanish Mini Quiz
         tagline: ''
         subtitle: Match the question to the correct word.
-        text: |
-          Match the question to the correct word.
+        text: ''
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
