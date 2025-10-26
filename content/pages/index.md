@@ -365,7 +365,7 @@ sections:
     subtitle: 'A quote I live by:'
     items:
       - title: “Knowledge is power.”
-        tagline: Testimonial 1
+        tagline: ''
         subtitle: Quote by
         text: |
           What the quote means to me?
