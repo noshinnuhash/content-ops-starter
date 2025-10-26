@@ -370,7 +370,6 @@ sections:
         text: |
           What the quote means to me?
         image:
-          url: /images/person-placeholder-light.png
           altText: Maria Walters
           styles:
             self:
