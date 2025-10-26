@@ -505,7 +505,7 @@ sections:
         type: FeaturedItem
       - title: Are you faster than me?
         tagline: ''
-        subtitle: This is the item subtitle
+        subtitle: Click numbers 1-4 as fast as you can.
         text: >
           Learn from the tutorial and build your first awesome Netlify Create
           site.
