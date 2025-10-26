@@ -110,7 +110,7 @@ sections:
             self:
               borderRadius: x-large
       - title: Teaching
-        subtitle: The Job Stuff
+        subtitle: Lessons beyong the classroom
         text: >+
           In my final year of university, I worked as a teaching assistant. It
           was a refreshing and rewarding experience, and in many ways, my desire
