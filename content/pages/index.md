@@ -279,8 +279,17 @@ sections:
       - title: “Knowledge is power.”
         tagline: ''
         subtitle: Quote by Francis Bacon.
-        text: |
-          What the quote means to me?
+        text: >+
+          Knowledge is power – something no one can take away from you. Every
+          day brings new opportunities to learn and what you
+
+          learn becomes part of who you are. Regardless of your background or
+          circumstance, the mind is your greatest asset. With more knowledge,
+          ignorance has no place. In other words, the more you learn, the more
+          you grow and enrich your understanding of the world. 
+
+
+
         image:
           altText: Maria Walters
           styles:
