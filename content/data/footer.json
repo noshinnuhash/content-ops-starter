@@ -74,13 +74,13 @@
         },
         {
             "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "url": "https://www.linkedin.com/in/noshin-n",
             "icon": "linkedin",
             "type": "Social"
         },
         {
             "altText": "Email link",
-            "url": "/",
+            "url": "mailto:noshinn.x@gmail.com",
             "icon": "mail",
             "type": "Social"
         }
