@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chess Puzzle - Mate in 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 30px;
+    }
+    #challenge {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    #board-container {
+      display: inline-grid;
+      grid-template-columns: repeat(9, 50px);
+      grid-template-rows: repeat(9, 50px);
+      border: 2px solid #333;
+      user-select: none;
+    }
+    .square {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 36px;
+      cursor: pointer;
+    }
+    .light {
+      background: #f0d9b5;
+    }
+    .dark {
+      background: #b58863;
+    }
+    .selected {
+      outline: 3px solid #f00;
+    }
+    .label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      background: #eee;
+      font-size: 18px;
+      user-select: none;
+      cursor: default;
+    }
+    #feedback {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+	<h1>Nosh 💖</h1>
+  <div id="challenge">White to move — checkmate in 1</div>
+  <div id="board-container"></div>
+  <div id="feedback"></div>
+
+  <script>
+    const pieces = {
+      'K': '♔',
+      'Q': '♕',
+      'R': '♖',
+      'B': '♗',
+      'N': '♘',
+      'P': '♙',
+      'k': '♚',
+      'q': '♛',
+      'r': '♜',
+      'b': '♝',
+      'n': '♞',
+      'p': '♟',
+      '': ''
+    };
+
+    let board = [
+      ['','','','','k','','',''],
+      ['','','','','','p','',''],
+      ['','','','','','','',''],
+      ['','','','','','','',''],
+      ['','','','','','','',''],
+      ['','','','','','','',''],
+      ['','','','','','','','Q'],
+      ['','','','','K','','','']
+    ];
+
+    let selected = null;
+
+    const container = document.getElementById('board-container');
+    const feedbackEl = document.getElementById('feedback');
+
+    function drawBoard() {
+      container.innerHTML = '';
+
+      // We draw 9x9 grid: 8x8 board + labels on right and bottom
+
+      const files = ['a','b','c','d','e','f','g','h'];
+      const ranks = ['8','7','6','5','4','3','2','1'];
+
+      for(let row=0; row<9; row++) {
+        for(let col=0; col<9; col++) {
+          const cell = document.createElement('div');
+
+          // Bottom-left cell is empty (corner between ranks and files)
+          if(row === 8 && col === 8) {
+            cell.classList.add('label');
+            cell.textContent = '';
+            container.appendChild(cell);
+            continue;
+          }
+
+          // Last row: file labels
+          if(row === 8) {
+            cell.classList.add('label');
+            cell.textContent = files[col];
+            container.appendChild(cell);
+            continue;
+          }
+
+          // Last column: rank labels
+          if(col === 8) {
+            cell.classList.add('label');
+            cell.textContent = ranks[row];
+            container.appendChild(cell);
+            continue;
+          }
+
+          // Chessboard squares
+          cell.classList.add('square');
+          if((row + col) % 2 === 0) cell.classList.add('light');
+          else cell.classList.add('dark');
+
+          cell.dataset.row = row;
+          cell.dataset.col = col;
+
+          cell.textContent = pieces[board[row][col]];
+
+          if(selected && selected[0] === row && selected[1] === col) {
+            cell.classList.add('selected');
+          }
+
+          cell.onclick = () => onSquareClick(row, col);
+
+          container.appendChild(cell);
+        }
+      }
+    }
+
+    function onSquareClick(r, c) {
+      feedbackEl.textContent = '';
+      if(!selected) {
+        if(board[r][c] && board[r][c].toUpperCase() === board[r][c] && board[r][c] !== '') {
+          selected = [r,c];
+          drawBoard();
+        }
+      } else {
+        if(selected[0] === r && selected[1] === c) {
+          selected = null;
+          drawBoard();
+          return;
+        }
+
+        // Mate move Qe8: from (6,7) to (0,4)
+        if(selected[0] === 6 && selected[1] === 7 && r === 0 && c === 4) {
+          board[r][c] = board[selected[0]][selected[1]];
+          board[selected[0]][selected[1]] = '';
+          selected = null;
+          drawBoard();
+          feedbackEl.textContent = '🎉 Correct! Qe8# is checkmate!';
+          return;
+        } else {
+          feedbackEl.textContent = 'Try again. Remember: White to move — checkmate in 1.';
+          selected = null;
+          drawBoard();
+        }
+      }
+    }
+
+    drawBoard();
+
+//Thanks for working with me, 💖.
+  </script>
+</body>
+</html>
