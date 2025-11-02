@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Are You Faster Than Me?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: beige;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      gap: 10px;
+    }
+    button {
+      width: 80px;
+      height: 80px;
+      font-size: 1.5em;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #edc685;
+      color: white;
+    }
+    .active:hover{
+	background-color: #eec886;
+	color: black;
+
+	}
+    .inactive {
+      background-color: #fae6c8;
+      color: #6b7280;
+    }
+    .result {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .play-again {
+      margin-top: 10px;
+      padding: 10px 20px;
+      width: 100%;
+      background-color: #10b981;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      white-space: nowrap;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+  <h1>Are You Faster Than Me?</h1>
+	<h2>Lets play!</h2>
+  <div class="grid" id="grid"></div>
+  <div class="result" id="result"></div>
+
+  <script>
+    const grid = document.getElementById("grid");
+    const result = document.getElementById("result");
+    let numbers = [];
+    let current = 1;
+    let startTime = null;
+    let endTime = null;
+
+    function shuffle(arr) {
+      return arr.sort(() => Math.random() - 0.5);
+    }
+
+    function resetGame() {
+      numbers = shuffle([...Array(9).keys()].map(n => n + 1));
+      current = 1;
+      startTime = null;
+      endTime = null;
+      result.innerHTML = "";
+      renderGrid();
+    }
+
+    function renderGrid() {
+      grid.innerHTML = "";
+      numbers.forEach(num => {
+        const btn = document.createElement("button");
+        btn.textContent = num;
+        btn.className = num === current ? "active" : "inactive";
+        btn.disabled = num !== current;
+        btn.onclick = () => handleClick(num);
+        grid.appendChild(btn);
+      });
+    }
+
+    function handleClick(num) {
+      if (num === current) {
+        if (num === 1) startTime = Date.now();
+        if (num === 9) {
+          endTime = Date.now();
+          showResult();
+        }
+        current++;
+        renderGrid();
+      }
+    }
+
+    function showResult() {
+      const time = (endTime - startTime) / 1000;
+      let message = "";
+      if (time < 3) message = "🔥 Fast fingers!";
+      else if (time < 6) message = "😅 Not bad!";
+      else message = "😴 Try again?";
+
+      result.innerHTML = `
+        <p>Time: ${time.toFixed(2)}s</p>
+        <p><strong>${message}</strong></p>
+        <button class="play-again" onclick="resetGame()">Play Again</button>
+      `;
+    }
+
+    resetGame();
+  </script>
+</body>
+</html>
