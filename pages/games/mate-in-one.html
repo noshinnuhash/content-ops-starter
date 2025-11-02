@@ -55,7 +55,6 @@
   </style>
 </head>
 <body>
-	<h1>Nosh 💖</h1>
   <div id="challenge">White to move — checkmate in 1</div>
   <div id="board-container"></div>
   <div id="feedback"></div>
@@ -164,13 +163,13 @@
           return;
         }
 
-        // Mate move Qe8: from (6,7) to (0,4)
-        if(selected[0] === 6 && selected[1] === 7 && r === 0 && c === 4) {
+        // Mate move Qh8: from (6,7) to (0,7)
+        if(selected[0] === 6 && selected[1] === 7 && r === 0 && c === 7) {
           board[r][c] = board[selected[0]][selected[1]];
           board[selected[0]][selected[1]] = '';
           selected = null;
           drawBoard();
-          feedbackEl.textContent = '🎉 Correct! Qe8# is checkmate!';
+          feedbackEl.textContent = '🎉 Correct! Qh8# is checkmate!';
           return;
         } else {
           feedbackEl.textContent = 'Try again. Remember: White to move — checkmate in 1.';
