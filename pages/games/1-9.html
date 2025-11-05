@@ -13,11 +13,13 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background: beige;
+      background: #f9fafb;
     }
     h1 {
       font-size: 2em;
       margin-bottom: 20px;
+      padding-bottom: 1em;
+
     }
     .grid {
       display: grid;
@@ -34,18 +36,23 @@
       cursor: pointer;
     }
     .active {
-      background-color: #edc685;
+      background-color: #3b82f6;
       color: white;
     }
-    .active:hover{
-	background-color: #eec886;
-	color: black;
+    .active:hover {
+      background-color: #4b88f6;
+      color: black;
+    }
 
-	}
     .inactive {
-      background-color: #fae6c8;
+      background-color: #d1d5db;
       color: #6b7280;
     }
+    .inactive:hover {
+      background-color: #d1e6ff;
+      color: #6b7280;
+    }
+
     .result {
       margin-top: 20px;
       text-align: center;
@@ -62,15 +69,11 @@
       font-size: 1em;
       white-space: nowrap;
     }
-
   </style>
 </head>
-
 <body>
-
-
   <h1>Are You Faster Than Me?</h1>
-	<h2>Lets play!</h2>
+	
   <div class="grid" id="grid"></div>
   <div class="result" id="result"></div>
 
