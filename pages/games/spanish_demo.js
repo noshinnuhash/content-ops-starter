@@ -13,15 +13,15 @@ body {
       justify-content: none;
       height: 100vh;
       margin: 20px;
-	color: black;
-background-color: beige;
+      color: black;
+      background-color: #f9fafb;
     }
     h1 {
 	margin-top: 150px;
       margin-bottom: 50px;
     }
     .question-box {
-      background: #f8e5c5;
+      background: #f9faf4;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ background-color: beige;
       width: 80%;
       border: none;
       border-radius: 5px;
-      background-color: #fac499;
+      background-color: #d1d5db;
       cursor: pointer;
       font-size: 1em;
 }
@@ -120,6 +120,9 @@ q.options.forEach(option => {
     }
 
     loadQuestion();
-  </script>
+//❤️❤️❤️
+</script>
 </body>
 </html>
+
+
