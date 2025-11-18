@@ -1,0 +1,23 @@
+.education-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  color: #333;
+}
+
+.education-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.education-content p {
+  margin: 4px 0 0 0;
+  font-size: 1rem;
+  color: #666;
+}
