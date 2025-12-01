@@ -105,7 +105,7 @@ sections:
           type: ImageBlock
           altText: Lightning bolt symbol on red background
           elementId: ''
-          url: /images/Graduation cap.svg
+          url: /images/40x40 grad cap.svg
           styles:
             self:
               borderRadius: x-large
