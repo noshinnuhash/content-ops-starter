@@ -171,7 +171,7 @@ sections:
 
 
         image:
-          url: /images/target (1).svg
+          url: /images/Target icon.svg
           altText: Featured icon three
           elementId: ''
           type: ImageBlock
