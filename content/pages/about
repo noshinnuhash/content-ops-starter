@@ -1,0 +1,92 @@
+---
+title: Spanish Mini Quiz Games
+slug: pricing
+sections:
+  - title:
+      text: Spanish Mini Quiz Games
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Play our mini-games and test your skills!
+    plans:
+      - title: Spanish Mini Quiz
+        price: Free
+        description: Match the question to the correct word.
+        image:
+          url: /images/mate1.png
+          altText: Spanish Mini Quiz
+          type: ImageBlock
+        actions:
+          - label: Play Game
+            url: /pages/games/mate-in-one.html
+            type: Button
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+        type: PricingPlan
+
+      - title: White to move - checkmate in 1
+        price: Free
+        description: Find the single move that wins the game.
+        image:
+          url: /images/game2.png
+          altText: White to move
+          type: ImageBlock
+        actions:
+          - label: Play Game
+            url: /pages/games/spanish_demo.js
+            type: Button
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+        type: PricingPlan
+
+      - title: Are you faster than me?
+        price: Free
+        description: Click numbers 1-9 as fast as you can.
+        image:
+          url: /images/game3.png
+          altText: Are you faster than me?
+          type: ImageBlock
+        actions:
+          - label: Play Game
+            url: /pages/games/1-9.html
+            type: Button
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+        type: PricingPlan
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    type: PricingSection
+seo:
+  metaTitle: Spanish Mini Quiz Games
+  metaDescription: Play mini-games on our website!
+  socialImage: /images/main-hero.jpg
+  type: Seo
+type: PageLayout
+---
