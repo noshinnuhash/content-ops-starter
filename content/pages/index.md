@@ -126,7 +126,7 @@ sections:
           schemes, knowing how mentally and emotionally demanding those roles
           could be.
         image:
-          url: /images/Lightbulb.svg
+          url: /images/Lightbulb 40x40.svg
           altText: Featured icon two
           elementId: ''
           type: ImageBlock
