@@ -42,7 +42,7 @@ sections:
           type: ImageBlock
         actions:
           - label: Play Game
-            url: /pages/games/spanish_demo.html
+            url: /games/spanish_quiz.html
             type: Button
         colors: bg-neutral-fg-dark
         styles:
